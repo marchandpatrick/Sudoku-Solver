@@ -2,14 +2,16 @@ This is a simple class that solves Sudoku puzzles using recursive backtracking. 
 
 To run the program you simply pass in the name of a puzzle file you want to solve:
 
-
+<code>
 > make
 > ./Sodoku puzzle.txt
+</code>
 
 In the puzzle template files blank spots are represented by underscores, "_". A line return is also required after each sequence of 9 characters representing rows in the puzzle.
 
 Here is an example file:
 
+<code>
 _1_4____2
 __4_72___
 _83__5_7_
@@ -19,3 +21,4 @@ ___5_372_
 _2_3__94_
 ___72_6__
 9____6_1_
+</code>
