@@ -2,8 +2,8 @@ This is a simple class that solves Sudoku puzzles using recursive backtracking. 
 
 To run the program you simply pass in the name of a puzzle file you want to solve:
 
-bq. > make
-bq.	> ./Sodoku puzzle.txt
+> make
+> ./Sodoku puzzle.txt
 
 In the puzzle template files blank spots are represented by underscores, "_". A line return is also required after each sequence of 9 characters representing rows in the puzzle.
 
